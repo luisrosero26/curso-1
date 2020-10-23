@@ -1,0 +1,26 @@
+completion_text: |-
+  <p>Al final del Curso 1</p>
+description: "Descripci\xF3n del Curso 1"
+next_flow_id: quiz15
+next_flow_title: Prueba tu conocimiento
+pages:
+- content: |-
+    <p>Contenido del Curso 1</p>
+  id: intro
+  title: Inicio
+  type: Page
+- content: |-
+    <p>Contenido del contenido 1</p>
+  id: page36
+  title: "Contenido 1 del M\xF3dulo 1"
+  type: Page
+rules:
+  access:
+  - if_has_role:
+    - ta
+    - student
+    - instructor
+    permissions:
+    - view
+  grade_identifier: null
+title: Modulo 1
