@@ -1,0 +1,14 @@
+chunks:
+- content: ''
+  flows:
+  - flow_id: flow14
+    next_flow: quiz15
+    pages:
+    - flow_id: page36
+      title: "Contenido 1 del M\xF3dulo 1"
+    title: Modulo 1
+    title_next_flow: Prueba tu conocimiento
+  id: welcome
+  introduction: "<p>Esta es la introducci\xF3n al Curso 1</p>"
+  rules: []
+  title: Curso 1
