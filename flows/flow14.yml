@@ -14,6 +14,10 @@ pages:
   id: page36
   title: "Contenido 1 del M\xF3dulo 1"
   type: Page
+- content: "<p>Contenido 2 del M\xF3dulo 1</p>"
+  id: page37
+  title: "Contenido 2 del M\xF3dulo 1"
+  type: Page
 rules:
   access:
   - if_has_role:
