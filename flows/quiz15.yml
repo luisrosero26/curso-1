@@ -68,8 +68,8 @@ rules:
   grading:
   - credit_percent: 100
   start:
-  - if_before: 2020-10-23 23:04:10.918163
-    if_has_fewer_sessions_than: 1
+  - if_before: 2020-10-23 23:04:50.945646
+    if_has_fewer_sessions_than: 100
     if_has_role:
     - student
     - ta
