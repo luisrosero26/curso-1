@@ -1,0 +1,46 @@
+completion_text: "<p>Este es el final del Quiz del M\xF3dulo 1</p>"
+description: "Esta es descripci\xF3n del Quiz del m\xF3dulo 1"
+groups:
+- id: intro
+  pages:
+  - content: "<p>Este es el contenido del Quiz del m\xF3dulo 1</p> "
+    id: welcome
+    title: "Quiz m\xF3dulo 1"
+    type: Page
+- id: quiz_start
+  pages:
+  - choices:
+    - ~CORRECT~ Correcta
+    - Incorrecta 1
+    - Incorrecta 2
+    - Incorrecta 3
+    id: quizquestion35
+    prompt: ''
+    title: Pregunta 1
+    type: ChoiceQuestion
+    value: 100.0
+  shuffle: false
+rules:
+  access:
+  - permissions:
+    - view
+    - submit_answer
+    - end_session
+    - see_correctness
+    - see_answer_after_submission
+  grade_aggregation_strategy: use_latest
+  grade_identifier: quiz15
+  grading:
+  - credit_percent: 100
+  start:
+  - if_before: 2020-10-23 22:24:10.658445
+    if_has_fewer_sessions_than: 1
+    if_has_role:
+    - student
+    - ta
+    - instructor
+    may_list_existing_sessions: true
+    may_start_new_session: true
+  - may_list_existing_sessions: true
+    may_start_new_session: false
+title: "Quiz m\xF3dulo 1"
