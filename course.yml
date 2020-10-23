@@ -6,6 +6,8 @@ chunks:
     pages:
     - flow_id: page36
       title: "Contenido 1 del M\xF3dulo 1"
+    - flow_id: page37
+      title: "Contenido 2 del M\xF3dulo 1"
     title: Modulo 1
     title_next_flow: Prueba tu conocimiento
   id: welcome
