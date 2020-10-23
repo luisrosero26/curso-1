@@ -19,6 +19,41 @@ groups:
     title: Pregunta 1
     type: ChoiceQuestion
     value: 100.0
+  - answers:
+    - <plain>Correcta
+    id: quizquestion39
+    prompt: ''
+    title: Pregunta 3
+    type: TextQuestion
+    value: 0.0
+  - answers:
+    - <plain>Correcta
+    id: quizquestion38
+    prompt: ''
+    title: Pregunta 2
+    type: TextQuestion
+    value: 50.0
+  - answers:
+    - <plain>Correcta
+    id: quizquestion40
+    prompt: ''
+    title: Pregunta 4
+    type: TextQuestion
+    value: 0.0
+  - answers:
+    - <plain>Correcta
+    id: quizquestion42
+    prompt: ''
+    title: Pregunta 6
+    type: TextQuestion
+    value: 0.0
+  - answers:
+    - <plain>Correcta
+    id: quizquestion41
+    prompt: ''
+    title: Pregunta 5
+    type: TextQuestion
+    value: 0.0
   shuffle: false
 rules:
   access:
@@ -33,7 +68,7 @@ rules:
   grading:
   - credit_percent: 100
   start:
-  - if_before: 2020-10-23 22:33:26.032537
+  - if_before: 2020-10-23 23:04:10.918163
     if_has_fewer_sessions_than: 1
     if_has_role:
     - student
